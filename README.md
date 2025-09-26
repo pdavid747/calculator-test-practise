@@ -148,3 +148,8 @@ Jenkins will fetch the code, set up the environment, run tests, and display resu
 - Provides practice with unit testing and exception handling  
 - Can be integrated into CI/CD pipelines like Jenkins for automated testing  
 - Prepares for future projects that require automated testing and continuous integration
+
+
+
+
+![Alt text](/Users/peterdavidson/Desktop/test\ practise/Screenshot\ 2025-09-26\ at\ 14.30.18.png)
