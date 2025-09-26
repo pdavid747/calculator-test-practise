@@ -151,7 +151,12 @@ Jenkins will fetch the code, set up the environment, run tests, and display resu
 
 
 
+### Jenkins Test Results
 
+When the Jenkins job runs, it automatically sets up the Python environment, installs dependencies, and executes all tests with `pytest`.  
+If all calculator functions work correctly, the build will pass and Jenkins will display the results.
+
+Below is a screenshot of a successful Jenkins test run:
 ![Screenshot of Jenkins Setup](images/screenshot_2025-09-26.png)
 
 
