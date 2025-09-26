@@ -126,6 +126,7 @@ pip install pytest
 
 # Run tests and generate JUnit XML report
 pytest test_calculator.py --junitxml=results.xml
+```
 
 > Tip: Ensure there are no spaces in the workspace folder path, or wrap paths in quotes.  
 
