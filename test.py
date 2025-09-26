@@ -71,6 +71,8 @@ def test_cos():
     assert math.isclose(cos(0), 1.0, rel_tol=1e-9)
     assert math.isclose(cos(180), -1.0, rel_tol=1e-9)
 
+
+
 # ---- Logarithm Tests ----
 def test_log():
     assert log(100, 10) == 2
@@ -78,3 +80,4 @@ def test_log():
     assert log(math.e, math.e) == 1
     with pytest.raises(ValueError):
         log(-1)
+
