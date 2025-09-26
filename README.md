@@ -124,6 +124,40 @@ log(100)        # returns 2
 log(8, 2)       # returns 3
 log(math.e, math.e)  # returns 1
 ```
+## Running the Calculator CLI
+
+You can interact with the advanced calculator using the command-line interface (CLI) provided in `calculator_cli.py`.
+
+### Steps
+
+1. **Open Terminal** and navigate to the project directory:
+
+```bash
+cd path/to/project
+```
+2. **Run the CLI**
+```bash
+python calculator_cli.py
+```
+3. **Follow the prompts:** 
+- Enter the operation you want to perform: add, subtract, multiply, divide, sqrt, power, modulus, factorial, sin, cos, log. 
+- Enter the required number(s) when prompted. 
+- The result will be displayed in the terminal.
+
+### Example CLI Session
+```bash
+Welcome to the Calculator CLI!
+Operations: add, subtract, multiply, divide, sqrt, power, modulus, factorial, sin, cos, log
+Enter operation: add
+Enter first number: 5
+Enter second number: 3
+Result: 8
+```
+### Notes
+- The CLI uses the same functions as `calculator.py`, so all **logging** and **error handling** are applied.  
+- Invalid inputs or operations will display an **error message**.  
+- For logarithms, if only one number is provided, the **default base 10** is used.
+
 
 # Advanced Calculator Project Testing
 
@@ -144,7 +178,7 @@ The project uses `pytest` to ensure that all calculator functions work correctly
 - **`test_log()`** – Checks logarithms with default and custom bases
 
 
-## How to Run Locally
+## How to Run tests Locally
 
 1. **Install dependencies**  
    ```bash
