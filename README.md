@@ -20,6 +20,8 @@ This project implements a **simple calculator** in Python, supporting basic arit
 - **Example:**  
 ```python
 add(2, 3)  # returns 5
+add(-1, 1) # returns 0
+```
 
 ### 2. `subtract(a, b)`
 - **Purpose:** Returns the difference between two numbers.  
@@ -28,6 +30,7 @@ add(2, 3)  # returns 5
 - **Example:**  
 ```python
 subtract(5, 3)  # returns 2
+```
 
 ### 3. `multiply(a, b)`
 - **Purpose:** Returns the product of two numbers.  
@@ -37,7 +40,7 @@ subtract(5, 3)  # returns 2
 ```python
 multiply(3, 4)  # returns 12
 multiply(-2, 5) # returns -10
-
+```
 
 ### 4. `divide(a, b)`
 - **Purpose:** Returns the result of dividing `a` by `b`.  
@@ -49,7 +52,7 @@ multiply(-2, 5) # returns -10
 divide(10, 2)  # returns 5
 divide(5, 2)   # returns 2.5
 divide(10, 0)  # raises ValueError: Cannot divide by zero
-
+```
 
 ### 5. `sqrt(a)`
 - **Purpose:** Returns the square root of a number.  
@@ -59,6 +62,6 @@ divide(10, 0)  # raises ValueError: Cannot divide by zero
 ```python
 sqrt(4)   # returns 2
 sqrt(16)  # returns 4
-
+```
 
 
