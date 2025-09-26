@@ -152,5 +152,6 @@ Jenkins will fetch the code, set up the environment, run tests, and display resu
 
 
 
-![Screenshot](images/screenshot_2025-09-26.png)
+![Screenshot of Jenkins Setup](images/screenshot_2025-09-26.png)
+
 
