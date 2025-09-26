@@ -152,4 +152,4 @@ Jenkins will fetch the code, set up the environment, run tests, and display resu
 
 
 
-![Alt text](/Users/peterdavidson/Desktop/test\ practise/Screenshot\ 2025-09-26\ at\ 14.30.18.png)
+![Screenshot](screenshot_2025-09-26.png)
